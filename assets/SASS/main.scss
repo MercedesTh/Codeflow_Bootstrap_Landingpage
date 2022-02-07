@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a, .nav-link, button{
+    color: lightcyan;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-size: 4rem;
+}
+
+.btn{
+    border: 2px solid lightcyan;
+    color: lightcyan;
+}
+
+.form-control{
+    border: 2px solid lightcyan;
+    background: rgba(255, 127, 80, 0.1);
+    color: lightcyan !important; 
+}
+
+header{
+    height: 15vh;
+    background: rgba(255, 127, 80, 0.5);
+
+    nav{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+main{
+    height: 80vh;
+}
